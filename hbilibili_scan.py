@@ -44,7 +44,7 @@ def repost(dynamic_id):
         "rid":dynamic_id,
         "content":"@大姬八云紫@゚大鹏不想飞",
         "ctrl":'[{"data":"3453410","length":4,"location":0,"type":1},{"data":"240834777","length":5,"location":4,"type":1}]',
-        "at_uids":"17206236,16118202",
+        "at_uids":"3453410,240834777",
         "spec_type":"0",
         "repost_code":"10000",
         "extension":"{}"
