@@ -38,13 +38,13 @@ def repost(dynamic_id):
         "Host":"api.vc.bilibili.com"
     }
     data = {
-        "uid":"48766812",
+        "uid":"1",
         "dynamic_id":"0",
         "type":"2",
         "rid":dynamic_id,
         "content":"@大姬八云紫@゚大鹏不想飞",
-        "ctrl":'[{"data":"3453410","length":4,"location":0,"type":1},{"data":"240834777","length":5,"location":4,"type":1}]',
-        "at_uids":"3453410,240834777",
+        "ctrl":'[{"data":"3453410","length":7,"location":0,"type":1},{"data":"240834777","length":6,"location":8,"type":1}]',
+        "at_uids":"3453410,2408347,28272030",
         "spec_type":"0",
         "repost_code":"10000",
         "extension":"{}"
@@ -101,7 +101,7 @@ def helper(i):
         return title,des,uid
 
 def monitor():
-    for i in range(5857780, 9000000):
+    for i in range(8771704, 10000000):
         print(i)
         try:
             # url = "https://api.vc.bilibili.com/link_draw/v1/doc/detail?doc_id="+str(i)
